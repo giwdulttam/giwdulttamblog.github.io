@@ -4,3 +4,4 @@ I study probability theory and am interested in the subject of free probability 
 
 
 ![IMG_1117](https://github.com/giwdulttam/giwdulttam.github.io/assets/112978414/10781f06-e7eb-4f71-a5d5-bcf132113cfa)
+<img src="https://github.com/giwdulttam/giwdulttam.github.io/assets/112978414/10781f06-e7eb-4f71-a5d5-bcf132113cfa" alt="Alt Text" width="300"/>
