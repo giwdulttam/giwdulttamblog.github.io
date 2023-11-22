@@ -7,5 +7,5 @@ I study probability theory and am interested in the subject of free probability 
 
 
 <div style="float: right; margin-left: 20px;">
-    <img src="https://github.com/giwdulttam/giwdulttam.github.io/assets/112978414/228d2638-738f-4a18-b604-1a936987151c" alt="Alt Text" width="800"/>
+    <img src="https://github.com/giwdulttam/giwdulttam.github.io/assets/112978414/228d2638-738f-4a18-b604-1a936987151c" alt="Alt Text" width="500"/>
 </div>
