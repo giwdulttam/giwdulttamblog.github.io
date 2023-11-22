@@ -8,7 +8,6 @@ I'm currently a statistics graduate student at Boston Univeristy studying probab
 
 
 <div style="float: right; margin-left: 20px;">
-    <img src="https://github.com/giwdulttam/giwdulttam.github.io/assets/112978414/228d2638-738f-4a18-b604-1a936987151c" alt="Alt Text" width="500"/>
+    <img src="https://github.com/giwdulttam/giwdulttam.github.io/assets/112978414/7047a641-ea51-4614-81f7-b0819d5dcf49" alt="Alt Text" width="300"/>
 </div>
-
 
