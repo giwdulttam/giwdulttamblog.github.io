@@ -1,1 +1,3 @@
-Hello! I'm Matt, a statistics graduate student at Boston Univeristy. I study probability theory and am interested in the subject of free probability theory and its interactions with stochastic processes, random matrices and operator algebras. When not thinking about mathematics, I enjoy playing cello, swing dancing and going to concerts with friends. 
+Hello! I'm Matt, a statistics graduate student at Boston Univeristy.
+
+I study probability theory and am interested in the subject of free probability theory and its interactions with stochastic processes, random matrices and operator algebras. When not thinking about mathematics, I enjoy playing cello, swing dancing and going to concerts with friends. 
