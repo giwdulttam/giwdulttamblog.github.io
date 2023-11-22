@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Hello! I'm Matt, a statistics graduate student at Boston Univeristy. I study probability theory and am interested in the subject of free probability theory and its interactions with stochastic processes, random matrices and operator algebras. When not thinking about mathematics, I enjoy playing cello, swing dancing and going to concerts with friends. 
