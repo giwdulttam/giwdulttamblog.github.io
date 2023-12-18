@@ -6,7 +6,7 @@ In this post, I will introduce Bourguin and Peccati's paper "Semicircular Limits
 
 Remark 3.6:
 
-"Albeit largely sufficient for our needs, the spectral bound (3.13) is not satisfying, in particular because the quantity max{1;DK} is not converging to zero whenever $DK \rightarrow 0$. By inspection of the forthcoming proof, one sees that, in order to obtain a spectral bound verifying such a basic continuity property, one would need to show that the minimal number of blocks of a partition in $NC^{0}_{>= 2([2mq],\pi_*$ strictly increases as an affine function of m (in the proof we use the trivial bound: $|\sigma| \geq q$ for every $\sigma \in  NC^{0}_{>= 2([2mq],\pi_*))$. We prefer to think of this issue as a separate problem, and we leave it open for further research."
+"Albeit largely sufficient for our needs, the spectral bound (\ref{eq:spectral_bound}) is not satisfying, in particular because the quantity $\max\{1,DK\}$ is not converging to zero whenever $DK \rightarrow 0$. By inspection of the forthcoming proof, one sees that, in order to obtain a spectral bound verifying such a basic continuity property, one would need to show that the minimal number of blocks of a partition in $NC^{0}_{\geq 2([2mq],\pi_*)}$ strictly increases as an affine function of $m$ (in the proof, we use the trivial bound: $|\sigma| \geq q$ for every $\sigma \in  NC^{0}_{\geq 2([2mq],\pi_*))}$. We prefer to think of this issue as a separate problem, and we leave it open for further research."
 
 
 Before doing this, I will first provide an overview of their work and an introduction to the subject.
