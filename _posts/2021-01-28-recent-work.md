@@ -1,4 +1,56 @@
-### Recent Work
+### Improving a Bound on the Spectral Radius
+
+
+In this post, I will introduce Bourguin and Peccati's paper "Semicircular Limits on the Free Poisson Chaos: Counterexamples to a Transfer Principle" and improve their spectral bound in (3.13) by showing that it satisfy the basic continuity property.... I will do this by showing that the minimal number of blocks of a partition in NC≥02([2mq],π∗) strictly increases as an affine function of m. This extension follows from their Remark 3.6 reproduced below: 
+
+
+Remark 3.6:
+
+"Albeit largely sufficient for our needs, the spectral bound (3.13) is not satisfying, in particular because the quantity max{1;DK} is not converging to zero whenever DK → 0. By inspection of the forthcoming proof, one sees that, in order to obtain a spectral bound verifying such a basic continuity property, one would need to show that the minimal number of blocks of a partition in NC≥02([2mq],π∗) strictly increases as an affine function of m (in the proof we use the trivial bound: |σ| ≥ q for every σ ∈ NC≥02([2mq],π∗)). We prefer to think of this issue as a separate problem, and we leave it open for further research."
+
+
+Before doing this, I will first provide an overview of their work and an introduction to the subject.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
