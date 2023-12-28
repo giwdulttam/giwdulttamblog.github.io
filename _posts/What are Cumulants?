@@ -1,2 +1,25 @@
+### What are Cumulants?
+
+
+
+In statistics and probability, quantitative measures called moments are typically used to shape of a distribution. The most commonly encountered moments are the first and second central moments which are typically 
+referred to as the mean and variance of a distribution. The useful thing about moments is that not only do they describe the shape of a distribution, but they also uniquely determine it. In particular, if two 
+distributions have the same collection of moments, then they are the same distribution. In order to keep track of the list of moments for a distribution, it is convient to "string them up on a clothes line" or
+display them with the help of a moment generating function. The moment generating function is defined as $\mathbb{E}[e^{Xt}]$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
