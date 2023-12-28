@@ -10,7 +10,7 @@ Let $m_n$ denote the number of graphs (disconnected graphs are allowed) on a ver
 
 A version of this relationship can be used to express the relationship between moments and cumulants: $$m_n(X_1,...,X_n) = \sum_{\pi \in p(n)} \prod_{B \in \pi} c_{|B|}(X_i : i \in B)$$
 
-For instance, this tells us that $m_2(X_1, X_2) = c_2(X_1, X_2) + c_1(X_1)c_1(X_2)$. While this relationship between momments and cumulants in terms of partitions is interesting, it might not be entirely clear what exactly are cumulants other than a than a polynomial transformation of moments. 
+For instance, this tells us that $m_2(X_1, X_2) = c_2(X_1, X_2) + c_1(X_1)c_1(X_2)$. While this relationship between momments and cumulants in terms of partitions is interesting, it might not be entirely clear what exactly are cumulants other than a than a polynomial transformation of moments. Fir
 
 
 
