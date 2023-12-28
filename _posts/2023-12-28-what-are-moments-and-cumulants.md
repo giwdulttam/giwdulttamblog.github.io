@@ -10,7 +10,7 @@ Let $m_n$ denote the number of graphs (disconnected graphs are allowed) on a ver
 
 A version of this relationship can be used to express the relationship between moments and cumulants $m_n(X_1,...,X_n) = \sum_{\pi \in p(n)} \prod_{B \in \pi} c_{|B|}(X_i : i \in B)$.
 
-For instance, this tells us that $m_2(X_1, X_2) = c_2(X_1, X_2) + c_1(X_1)c_1(X_2)$. While this relationship between momments and cumulants in terms of partitions is interesting, it might not be entirely clear what exactly are cumulants other than a than a polynomial transformation of moments. Using the relationship from above, we could write the joint first moment in terms of joint cumulants as $\mathbb{E}[X_1 X_2 X_3 X_4] = c(X_1 X_2 X_3 X_4) + c()$
+For instance, this tells us that $m_2(X_1, X_2) = c_2(X_1, X_2) + c_1(X_1)c_1(X_2)$. While this relationship between momments and cumulants in terms of partitions is interesting, it might not be entirely clear what exactly are cumulants other than a than a polynomial transformation of moments. First consider the following relations between cumulants and moments $c(X) = \mathbb{E}(X)$, $c(X_1 X_2) = \mathbb{E}[X_1 X_2] - \mathbb{E}[X_1]\mathbb{E}[X_2]$ which is the definition of covariance of $X_1$ and $X_2$. Also consider the expression of the joint first moment in terms of joint cumulants of four random variables $\mathbb{E}[X_1 X_2 X_3] = c(X_1 X_2 X_3) + c(X_1 X_2)c(X_3) + c(X_1 X_3)c(X_2) + c(X_2 X_3)c(X_1) + c(X_1)c(X_2)c(X_3)$. 
 
 
 
