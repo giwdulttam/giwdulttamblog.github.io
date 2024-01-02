@@ -2,8 +2,10 @@ In this post, we will continue our discussion of moments and cumulants and begin
 
 
 <div style="float: right; margin-left: 20px;">
-    <img src="https://github.com/giwdulttam/giwdulttam.github.io/assets/112978414/7047a641-ea51-4614-81f7-b0819d5dcf49" alt="Alt Text" width="300"/>
+    <img src="Screen Shot 2024-01-02 at 12.38.05 PM.png" alt="Alt Text" width="300"/>
 </div>
+
+This image is reproduced from [1]. 
 
 
 Denote the set of partition of $[n]$ by $\mathcal{P}(n)$ and let $\mathcal{NC}(n)$ be the set of all non-crossing partitions of $[n]$. Now 
