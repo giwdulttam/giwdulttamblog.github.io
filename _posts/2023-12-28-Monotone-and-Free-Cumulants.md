@@ -6,7 +6,9 @@ where the summation was taken over the partitions of the vertex set $n$. Now we 
 
 $$m_n = \sum_{\pi \in \mathcal{NC}(n)} \prod_{B \in \pi}\kappa_{|B|}$$
 
+Similarily we can write the 
 
+$$m_n = \sum_{\pi \in \mathcal{NC}(n)} \prod_{B \in \pi}\kappa_{|B|}(X_i : i \in B)$$
 
 
 
