@@ -18,11 +18,9 @@ One nice property of the Fourier transform or characteristic functions of probab
 
 $$\hat{(P \star Q)}(t) = \hat{P}(t) \cdot \hat{Q}(t) (P, Q \in Prob(\mathbb{R}), t \in \mathbb{R})$$
 
-Also recall how the convolution of two probability measures $\mu$ and $\nu$ is the law of the random $X + Y$ where $X$ and $Y$ are independent random variables taking values in $\mathbb{R}^n$ with laws $\mu$ and $\nu$ respectively. Now we can define the $r^{th}$ cumulant as follows: 
+Also recall how the convolution of two probability measures $\mu$ and $\nu$ is the law of the random $X + Y$ where $X$ and $Y$ are independent random variables taking values in $\mathbb{R}^n$ with laws $\mu$ and $\nu$ respectively. In this case note that this definition simply uses the log Fourier transform or log characteristic function instead of the logarithm of moment generating function which we used to define cumulants in the "Introduction to Moments and Cumulants" post. Now since $log \circ \hat{P}$ is $r$ times contiuously differentiable in the neighborhood of zero we can define the $r^{th}$ cumulant as:
 
 $$\kappa_r = i^{-r}(D^r log \circ \hat{P})(0)$$ 
-
-In this case note that this definition simply uses the log Fourier transform or log characteristic function instead of the logarithm of moment generating function which we used to define cumulants in the "Introduction to Moments and Cumulants" post. Now since $log \circ \hat{P}$ is $r$ times contiuously differentiable in the neighborhood of zero we can define the $r^{th}$ cumulant as:
 
 Where $D^r$ denotes the $r^{th}$ derivative. Now having defined cumulants in terms of Fourier transforms or characteristic functions (which allows more easily discuss the convolution of measures and the distributions of the sums of random variables) we also have the following relation: 
 
