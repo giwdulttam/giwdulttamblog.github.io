@@ -16,7 +16,7 @@ where here $\kappa_{n}$ are the free cumulants and $m_n$ are the free moments. T
 
 Now, we can construct more types of cumulants by consider the summation over different types of partitions. We will now introduce the notion of monotone partitions and monotone cummulants. A monotone partition is defined by a pair $(\pi, \lambda)$ where $\pi \in \mathcal{P}(n)$ and linear ordering $\lambda$ of the blocks of $\pi$. It is useful to use the notation $\pi = \{ V_1 < V_2 < ... < V_l\}$. Then, the set of monotone partitions is defined as follows:
 
-$$\mathcal{M}(n) \coloneq \{(\pi, \lambda); \pi \in \mathcal{NC}(n), \text{if } V, W \in \pi \text{and } V \text{is in the inner side of } W, \text{then }, V >_{\lambda} W \}$$
+$$\mathcal{M}(n) \coloneqq \{(\pi, \lambda); \pi \in \mathcal{NC}(n), \text{if } V, W \in \pi \text{and } V \text{is in the inner side of } W, \text{then }, V >_{\lambda} W \}$$
 
 Here, $V$ is on the inner side of $W$ if ....
 
