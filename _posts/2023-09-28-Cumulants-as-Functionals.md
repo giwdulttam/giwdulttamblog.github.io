@@ -16,7 +16,7 @@ $$\hat{P}(t) = \int_\mathbb{R} e^{itx} dP(x) = \int_\mathbb{R} P(dx)e^{itx}$$
 
 One nice property of the Fourier transform or characteristic functions of probability measures is that the Fourier transform of the convolution of two probability measures it the product of the Fourier transform or each measure:
 
-$$\hat{(P \star Q)}(t) = \hat{P}(t) \cdot \hat{Q}(t) (P, Q \in Prob(\mathbb{R}), t \in \mathbb{R})$$
+$$\hat{(P \star Q)}(t) = \hat{P}(t) \cdot \hat{Q}(t) \hspace{8} (P, Q \in Prob(\mathbb{R}), t \in \mathbb{R})$$
 
 Also recall how the convolution of two probability measures $\mu$ and $\nu$ is the law of the random $X + Y$ where $X$ and $Y$ are independent random variables taking values in $\mathbb{R}^n$ with laws $\mu$ and $\nu$ respectively. In this case note that this definition simply uses the log Fourier transform or log characteristic function instead of the logarithm of moment generating function which we used to define cumulants in the "Introduction to Moments and Cumulants" post. Now since $log \circ \hat{P}$ is $r$ times contiuously differentiable in the neighborhood of zero we can define the $r^{th}$ cumulant as:
 
