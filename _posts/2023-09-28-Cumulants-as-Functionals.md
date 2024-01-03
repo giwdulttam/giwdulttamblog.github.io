@@ -7,12 +7,12 @@ Having previously introduced cumulants as well as free and monotone cumulants, t
 
 Let $X$ be a set with a $\sigma-$algebra $\mathcal{A}$ and let $Prob(X)$ denote the set of all probability measures on $\mathcal{A}$, that is the set of all functions $\mu : \mathcal{A} \rightarrow \mathbb{R}$ such that $\mu(X) = 1$. Also define:
 
-$$Prob_r(\mathbb{R}) \coloneqq \{ P \in Prob(\mathbb{R}) : \int |x|^r dP(x) < \infty \} \text{   } (r \in \mathbb{N}_0)$$
+$$Prob_r(\mathbb{R}) = \{ P \in Prob(\mathbb{R}) : \int |x|^r dP(x) < \infty \} \text{   } (r \in \mathbb{N}_0)$$
 
 
 Also let the real line $\mathbb{R}$ be equipt with the Borel $\sigma$-algebra.  Now recall that for $P \in Prob(\mathbb{R})$, the Fourier transform or characteristic function is defined as: 
 
-$$\hat{P}(t) \coloneqq \int_\mathbb{R} e^{itx} dP(x) = \int_\mathbb{R} P(dx)e^{itx}$$
+$$\hat{P}(t) = \int_\mathbb{R} e^{itx} dP(x) = \int_\mathbb{R} P(dx)e^{itx}$$
 
 One nice property of the Fourier transform or characteristic functions of probability measures is that the Fourier transform of the convolution of two probability measures it the product of the Fourier transform or each measure:
 
@@ -23,7 +23,7 @@ Also recall how the convolution of two probability measures $\mu$ and $\nu$ is t
 
 In this case note that this definition simply uses the log Fourier transform or log characteristic function instead of the logarithm of moment generating function which we was used to define cumulants in the "Introduction to Moments and Cumulants" post. Now since $log \circ \hat{P}$ is $r$ times contiuously differentiable in the neighborhood of zero we can define the $r^{th}$ cumulant as:
 
-$$\kappa_r \coloneqq i^{-r}(D^r log \circ \hat{P})(0)$$ 
+$$\kappa_r = i^{-r}(D^r log \circ \hat{P})(0)$$ 
 
 
 Where $D^r$ denotes the $r^{th}$ derivative. Now having defined cumulants in terms of Fourier transforms or characteristic functions (which allows more easily discuss the convolution of measures and the distributions of the sums of random variables) we also have the following relation: 
