@@ -3,7 +3,7 @@
 
 
 
-Having previously introduced cumulants as well as free and monotone cumulants, this post will provide another more general way of viewing cumulants. Mainly, as viewing them as functionals on probability measures.
+Having previously introduced cumulants as well as free and monotone cumulants, this post will provide another more general way of viewing cumulants. Mainly, as recognizing finite linear combinations of cumuants as continuous $\mathbb{R}$-valued, and convolution-additive functionals of probability measures. 
 
 Let $X$ be a set with a $\sigma-$algebra $\mathcal{A}$ and let $Prob(X)$ denote the set of all probability measures on $\mathcal{A}$, that is the set of all functions $\mu : \mathcal{A} \rightarrow \mathbb{R}$ such that $\mu(X) = 1$. Also define:
 
