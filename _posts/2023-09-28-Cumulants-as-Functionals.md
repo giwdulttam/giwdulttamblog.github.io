@@ -3,12 +3,40 @@
 
 
 
-Having previously introduced cumulants as well as free and monotone cumulants, this post will provide another more general way of viewing cumulants. Mainly, as viewing them as functionals on probability measures. Let $X$ be a set with a $\sigma-$algebra $\mathcal{A}$ and let $Prob(X)$ denote the set of all probability measures on $\mathcal{A}$, that is the set of all functions $\mu : \mathcal{A} \rightarrow \mathbb{R}$ such that $\mu(X) = 1$. Now $Prob(\mathbb{R})$ is a semigroup with the binary operation of convolution operation defined by $(f \star g)(t) = \int_{-\infty}^{\infty}f(\tau)g(t - \tau)d\tau$. 
+Having previously introduced cumulants as well as free and monotone cumulants, this post will provide another more general way of viewing cumulants. Mainly, as viewing them as functionals on probability measures.
+
+Let $X$ be a set with a $\sigma-$algebra $\mathcal{A}$ and let $Prob(X)$ denote the set of all probability measures on $\mathcal{A}$, that is the set of all functions $\mu : \mathcal{A} \rightarrow \mathbb{R}$ such that $\mu(X) = 1$. Also define:
+
+$$Prob_r(\mathbb{R}) \coloneqq \{ P \in Prob(\mathbb{R}) : \int |x|^r dP(x) < \infty \} \text{   } (r \in \mathbb{N}_0)$$
 
 
-One interesting fact is that if $\mu$ and $\gamma$ are probability measures on the topological group $(\mathbb{R},+)$, then the convolution $\mu \star \gamma$ is a probability distribution of $X + Y$ where $X$ has distribution $\mu$ and $Y$ has distribution $\gamma$. 
+Also let the real line $\mathbb{R}$ be equipt with the Borel $\sigma$-algebra.  Now recall that for $P \in Prob(\mathbb{R})$, the Fourier transform or characteristic function is defined as: 
 
-For...
+$$\hat{P}(t) \coloneqq \int_\mathbb{R} e^{itx} dP(x) = \int_\mathbb{R} P(dx)e^{itx}$$
+
+One nice property of the Fourier transform or characteristic functions of probability measures is that the Fourier transform of the convolution of two probability measures it the product of the Fourier transform or each measure:
+
+$$\hat{P \star Q}(t) = \hat{P}(t) \dot \hat{Q}(t) \text{ (P,Q \in Prob(\mathbb{R}), t \in \mathbb{R}}$$
+
+Also recall how the convolution of two probability measures $\mu$ and $\nu$ is the law of the random $X + Y$ where $X$ and $Y$ are independent random variables taking values in $\mathbb{R}^n$ with laws $\mu$ and $\nu$ respectively. Now we can define the $r^{th}$ cumulant as follows: 
+
+
+In this case note that this definition simply uses the log Fourier transform or log characteristic function instead of the logarithm of moment generating function which we was used to define cumulants in the "Introduction to Moments and Cumulants" post. Now since $log \circ \hat{P}$ is $r$ times contiuously differentiable in the neighborhood of zero we can define the $r^{th}$ cumulant as:
+
+$$\kappa_r \coloneqq i^{-r}(D^r log \circ \hat{P})(0)$$ 
+
+
+Where $D^r$ denotes the $r^{th}$ derivative. Now having defined cumulants in terms of Fourier transforms or characteristic functions (which allows more easily discuss the convolution of measures and the distributions of the sums of random variables) we also have the following relation: 
+
+$$\kappa_r(P \star Q) = \kappa_r(P) + \kappa_r(Q) \text{   } (r \in \mathbb{N}, P, Q \in Prob_r(\mathbb{R}))$$
+
+Thus it follows that for each $r \in \mathbb{N}, (Prob_r(\mathbb{R}), \star)$ is a semigroup on which $\kappa_r$ is an additive function, that is a homomorphism into the additive gropu $\mathbb{R}$. One fascinating result that we will not have time to prove in this post is that every continuous homomorphism from $(Prob_r(\mathbb{R}), \star)$ into $(\mathbb{R}, +)$ is a linear combination of cumulants of order at most $r$. 
+
+While redefining cumulants in this more general context may at first have seemed about arcane, the previous result illustrates how use a more general defition allows us to discover more of the many interesting properties of cumulants. 
+
+
+
+
 
 
 
