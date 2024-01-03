@@ -3,7 +3,7 @@
 
 
 
-Having previously introduced cumulants as well as free and monotone cumulants, this post will provide another more general way of viewing cumulants. Mainly, as recognizing finite linear combinations of cumuants as continuous $\mathbb{R}$-valued, and convolution-additive functionals of probability measures. 
+Having previously introduced cumulants as well as free and monotone cumulants, this post will provide another more general way of viewing cumulants. Mainly, as recognizing them as finite linear combinations of cumuants as continuous $\mathbb{R}$-valued, and convolution-additive functionals of probability measures. 
 
 Let $X$ be a set with a $\sigma-$algebra $\mathcal{A}$ and let $Prob(X)$ denote the set of all probability measures on $\mathcal{A}$, that is the set of all functions $\mu : \mathcal{A} \rightarrow \mathbb{R}$ such that $\mu(X) = 1$. Also define:
 
@@ -35,9 +35,7 @@ Thus it follows that for each $r \in \mathbb{N}, (Prob_r(\mathbb{R}), \star)$ is
 While redefining cumulants in this more general context may at first have seemed about arcane, the previous result illustrates how use a more general defition allows us to discover more of the many interesting properties of cumulants. 
 
 
-
-
-
+References: "What are Cumulants?" by Lutz Mattner in Documenta Mathematica 4 (1999), 601-622
 
 
 
