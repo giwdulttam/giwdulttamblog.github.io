@@ -1,4 +1,4 @@
-In this post, we will continue our discussion of moments and cumulants and begin to explore the interactions that arise between random variables by considering non-crossing and monotone partitions. Recall that the relationship between moments (denoted $m_n$, which corresponded to the total number of graphs on a vertex set $[n]$) and cumulants, (denoted $c_n$, which corresponded to the total number of connected graphs on a vertex set $[n]$) was: 
+In this post, we will continue our discussion of moments and cumulants and begin to explore the interactions that arise between random variables by considering non-crossing and monotone partitions. Recall that the relationship between moments (denoted $m_n$, which corresponded to the total number of graphs on a vertex set $[n]$ and cumulants, (denoted $c_n$, which corresponded to the total number of connected graphs on a vertex set $[n]$) was: 
 
 $$m_n(X_1,...,X_n) = \sum_{\pi \in p(n)} \prod_{B \in \pi} c_{|B|}(X_i : i \in B)$$
 
@@ -14,7 +14,18 @@ where here $\kappa_{n}$ are the free cumulants and $m_n$ are the free moments. T
 
 
 
-Now fascinatingly enough, we can construct more types of cumulants by consider the summation over different types of partitions. We will now introduce the notion of monotone partitions and monotone cummulants. 
+Now, we can construct more types of cumulants by consider the summation over different types of partitions. We will now introduce the notion of monotone partitions and monotone cummulants. A monotone partition is defined by a pair $(\pi, \lambda)$ where $\pi \in \mathcal{P}(n)$ and linear ordering $\lambda$ of the blocks of $\pi$. It is useful to use the notation $\pi = \{ V_1 < V_2 < ... < V_l\}$. Then, the set of monotone partitions is defined as follows:
+
+$$\mathcal{M}(n) \coloneq \{(\pi, \lambda); \pi \in \mathcal{NC}(n), \text{if} V, W \in \pi \text{and} V \text{is in the inner side of} W, \text{then}, V >_{\lambda} W \}$$
+
+Here, the $V$ being on the inner side of $W$ is
+
+
+
+
+
+
+
 
 
 
