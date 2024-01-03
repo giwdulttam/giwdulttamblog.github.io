@@ -22,7 +22,7 @@ Also recall how the convolution of two probability measures $\mu$ and $\nu$ is t
 
 $$\kappa_r = i^{-r}(D^r log \circ \hat{P})(0)$$ 
 
-In this case note that this definition simply uses the log Fourier transform or log characteristic function instead of the logarithm of moment generating function which we was used to define cumulants in the "Introduction to Moments and Cumulants" post. Now since $log \circ \hat{P}$ is $r$ times contiuously differentiable in the neighborhood of zero we can define the $r^{th}$ cumulant as:
+In this case note that this definition simply uses the log Fourier transform or log characteristic function instead of the logarithm of moment generating function which we used to define cumulants in the "Introduction to Moments and Cumulants" post. Now since $log \circ \hat{P}$ is $r$ times contiuously differentiable in the neighborhood of zero we can define the $r^{th}$ cumulant as:
 
 Where $D^r$ denotes the $r^{th}$ derivative. Now having defined cumulants in terms of Fourier transforms or characteristic functions (which allows more easily discuss the convolution of measures and the distributions of the sums of random variables) we also have the following relation: 
 
