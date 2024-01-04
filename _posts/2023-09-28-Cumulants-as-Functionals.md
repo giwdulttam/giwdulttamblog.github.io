@@ -26,7 +26,8 @@ Where $D^r$ denotes the $r^{th}$ derivative. Now having defined cumulants in ter
 
 $$\kappa_r(P \star Q) = \kappa_r(P) + \kappa_r(Q) \hspace{15pt} (r \in \mathbb{N}, P, Q \in Prob_r(\mathbb{R}))$$
 
-Thus it follows that for each $r \in \mathbb{N}, (Prob_r(\mathbb{R}), \star)$ is a semigroup on which $\kappa_r$ is an additive function, that is a homomorphism into the additive gropu $\mathbb{R}$. One fascinating result that we will not have time to prove in this post is that every continuous homomorphism from $(Prob_r(\mathbb{R}), \star)$ into $(\mathbb{R}, +)$ is a linear combination of cumulants of order at most $r$. 
+Thus it follows that for each $r \in \mathbb{N}, (Prob_r(\mathbb{R}), \star)$ is a semigroup on which $\kappa_r$ is an additive function, that is a homomorphism into the additive gropu $\mathbb{R}$. One fascinating result that we will not have time to prove in this post is that every continuous homomorphism from $(Prob_r(\mathbb{R}), \star)$ into $(\mathbb{R}, +)$ is a linear combination of cumulants of order at most $r$. Another cool result that will be discussed in a future post is that the free analogue of the logarithm of the Fourier transform of a probability measure is Voiculescu's R-transform. 
+
 
 While redefining cumulants in this more general context may at first have seemed about arcane, the previous result illustrates how use a more general defition allows us to discover more of the many interesting properties of cumulants. 
 
