@@ -18,10 +18,7 @@ Now, we can construct more types of cumulants by consider the summation over dif
 
 $$\mathcal{M}(n) \coloneqq \{(\pi, \lambda); \pi \in \mathcal{NC}(n), \text{if } V, W \in \pi \text{and } V \text{is in the inner side of } W, \text{then }, V >_{\lambda} W \}$$
 
-Here, $V$ is on the inner side of $W$ if ....
-
-
-We can also define the linear orders on the blocks for classical and non-crossing partitions...
+We can also define the linear orders on the blocks for classical and non-crossing partitions.
 
 
 
