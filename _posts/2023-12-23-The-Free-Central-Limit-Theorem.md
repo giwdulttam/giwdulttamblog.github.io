@@ -17,6 +17,22 @@ A collection of random variables $\{ a_i \}$ for $i \in \mathbb{N}$ is called id
 
 Let $(\mathcal{A_k}, \phi_k)$ for $k \in \mathbb{N}$, and $(\mathcal{A}, \phi)$ be non-commutative probability spaces. Then, if $(b_k)$ for $k \in \mathbb{N}$ is a sequence of non-commutative random variables with $b_k \in \mathcal{A_k}$ and let $b \in \mathcal{A}$, then we say that $b_k$ converges in distribution to $b$, denoted by $b_k \rightarrow b$, if $\lim_{k \rightarrow \infty} \phi_k(b_k^n) = \phi(b^n)$ for any fixed $n \in \mathbb{N}$. Also, let $I$ be an index set. For each $i \in I$, let $b_k^{(i)} \in \mathcal{A_k}$ for each $k \in \mathbb{N}$ and $b^{(i)} \in \mathcal{A}$. We say that $(b_k^{(i)})$ for $i \in I$ converges in distribution to $(b^{(i)})$ for $i \in I$, denoted by $(b_k^{i})  \rightarrow $(b^{(i)})$ for $i \in I$ if $\lim_{k \rightarrow \infty} \phi_k(b_k^{(i_1)} ... b_k^{(i_n)}) = \phi(b_k^{(i_1)} ... b_k^{(i_n)})$ for all $n \in \mathbb{N}$ and all $i_1,...,i_n \in I$. 
 
+Now we would like to look at the convergence in distribution of random variables $(S_k)$ for $k \in \mathbb{N}$, so we need to consider the moments of these random variables. Let $[k] = \{1,...,k\]$ and $[n] = \{1,..n\}$ and thus we have: 
+
+$$ \phi(S_k^n) = \frac{1}{k^{n/2}} \sum_{r: [n] \rightarrow [k]} \phi(a_{r_1} ... a_{r_n})$$.
+
+Now by examining the terms in the summation it follows that 
+
+$$\lim_{k \rightarrow \infty} \phi(S_k^n) = \sum_{\pi \in \mathcal{P_2}(n)} \phi(\pi)$$
+
+or in other words the only partitions which contribute to the sum in the $k \rightarrow \infty$ are those with exactly $n/2$ blocks or the partitions each of whose blocks has size $2$ which are called pairings and are denoted by $\mathcal{P_2}(n)$. For the details behind this reasoning, we refer the interested reader to Chapter 2 in Mingo and Speicher's "Free Probability and Random Matrices". We also note that when $n$ is odd then $\mathcal{P_2}(n) = \emptyset$ meaning that the odd limiting moments vanish. In order to determine the evening limiting moments we look at the clasical and free cases separately. 
+
+Starting with the classical case, we have that the random variables commute and factorize with respect to $\phi$. We also denote $\phi(a_i)^2 = \sigma^2$ as the common variance and observe that for any pairing $\pi \in \mathcal{P_2}(n)$ we have that $\phi(\pi) = \sigma^n$. Thus:
+
+$$ \lim_{k \rightarrow \infty} \phi(S_k^n) = \sum_{\pi \in \mathcal{P_2}(n)} \sigma^n = \sigma^n (n-1)(n-3)...(5)(3)(1)$$ 
+
+when $n$ is even and $0$ when $n$ is odd which are the moments for a Gaussian random variable with mean $0$ and variance $\sigma^2$ which proves the central limit theorem in the classical case. 
+
 
 
 
