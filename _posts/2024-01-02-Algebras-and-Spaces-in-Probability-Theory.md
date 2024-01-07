@@ -1,16 +1,11 @@
 ### Algebras and Spaces in Probability Theory
 
 
+A few interesting notes on probability spaces:
 
-
-In classical probability theory, one often begins with a 
-
-
-Note: Any unital commutative $C^* -$algebra can be realized as the algebra of continuous functions on a compact Hausdorff space $\Omega(A)$ in an essentially unique way. 
+Any unital commutative $C^* -$algebra can be realized as the algebra of continuous functions on a compact Hausdorff space $\Omega(A)$ in an essentially unique way. 
 
 This leads to the following: $\Omega \rightarrow A(\Omega)$ and $A \rightarrow \Omega(A)$ are contravariantly functorial and set up a dual equivalence between the category of compact Hausdorff spaces and the category of unital commutative $C^* -$algebras. 
-
-One consequence of this fact is that...
 
 
 
