@@ -15,7 +15,7 @@ Before discussing the central limit theorems, we recall the following definition
 
 A collection of random variables $\{ a_i \}$ for $i \in \mathbb{N}$ is called identically distributed if each random variable $a_i$ for $i \in \mathbb{N}$ has the same probability distribution $\{\phi(a_i^n)\}^{\infty}_{n = 0}$. 
 
-Also, let $(\mathcal{A}_k, \phi_k)$ for $k \in \mathbb{N}$, and $(\mathcal{A}, \phi)$ be non-commutative probability spaces. Then, if $(b_k)_{k \in \mathbb{N}}$ is a sequence of non-commutative random variables with $b_k \in \mathcal{A}_k$ and let $b \in \mathcal{A}$, then we say that $b_k$ converges in distribution to $b$, denoted by $b_k \rightarrow b$, if $\lim_{k \rightarrow \infty} \phi_k(b_k^n) = \phi(b^n)$.
+Let $(\mathcal{A}_k, \phi_k)$ for $k \in \mathbb{N}$, and $(\mathcal{A}, \phi)$ be non-commutative probability spaces. Then, if $(b_k)_{k \in \mathbb{N}}$ is a sequence of non-commutative random variables with $b_k \in \mathcal{A}_k$ and let $b \in \mathcal{A}$, then we say that $b_k$ converges in distribution to $b$, denoted by $b_k \rightarrow b$, if $\lim_{k \rightarrow \infty} \phi_k(b_k^n) = \phi(b^n)$.
 
 
 
