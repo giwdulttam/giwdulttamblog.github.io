@@ -13,7 +13,13 @@ Let $(\mathcal{A},\phi)$ be a non-commutative probability space and $T \in \math
 
 $$\phi(T^n) = \frac{1}{2 \pi} \int_{-2}^{2}t^n \sqrt{4 - t^2} dt$$.
 
-Now, the central limit theorem....
+Before discussing the central limit theorems, we recall the following definition for random variables be identically distributed and the definition for convergence in distirbution:
+
+A collection of random variables $\{a_i\}_{i \in \mathbb{N}}$ is called identically distributed if each random variable $a_i$ for $i \in \mathbb{N}$ has the same probability distribution $\{\phi(a_i^n)\}^{\infty}_{n = 0}$. 
+
+Let $(\mathcal{A_N}, \phi_N)_{N \in \mathbb{N}}$ and $(\mathcal{A},\phi)$ be non-commutative probability spaces and consider random variables $a_N \in \mathcal{A_N}$ for each $N \in \mathbb{N}$, and $a \in \mathcal{A}$. We say that $a_N$ converges in distribution towards $a$ for $N \rightarrow \infty$, and denote this by: $a_N $\xrightarrow[\text{distr}] a$ if we have $\lim_{N \rightarrow \infty}\phi_N(a_N^n) = \phi(a^n)$ for all $n \in \mathbb{N}$. 
+
+Now 
 
 
 
