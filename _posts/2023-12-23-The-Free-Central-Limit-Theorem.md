@@ -17,11 +17,7 @@ A collection of random variables $\{ a_i \}$ for $i \in \mathbb{N}$ is called id
 
 Let $(\mathcal{A_k}, \phi_k)$ for $k \in \mathbb{N}$, and $(\mathcal{A}, \phi)$ be non-commutative probability spaces. Then, if $(b_k)$ for $k \in \mathbb{N}$ is a sequence of non-commutative random variables with $b_k \in \mathcal{A_k}$ and let $b \in \mathcal{A}$, then we say that $b_k$ converges in distribution to $b$, denoted by $b_k \rightarrow b$, if $\lim_{k \rightarrow \infty} \phi_k(b_k^n) = \phi(b^n)$ for any fixed $n \in \mathbb{N}$. Also, let $I$ be an index set. For each $i \in I$, let $b_k^{(i)} \in \mathcal{A_k}$ for each $k \in \mathbb{N}$ and $b^{(i)} \in \mathcal{A}$. We say that $(b_k^{(i)})$ for $i \in I$ converges in distribution to $(b^{(i)})$ for $i \in I$, denoted by $(b_k^{i})  \rightarrow $(b^{(i)})$ for $i \in I$ if $\lim_{k \rightarrow \infty} \phi_k(b_k^{(i_1)} ... b_k^{(i_n)}) = \phi(b_k^{(i_1)} ... b_k^{(i_n)})$ for all $n \in \mathbb{N}$ and all $i_1,...,i_n \in I$. 
 
-Now we would like to look at the convergence in distribution of random variables $(S_k)$ for $k \in \mathbb{N}$, so we need to consider the moments of these random variables. Let $[k] = \{1,...,k\}$ and $[n] = \{1,..n\}$ and thus we have: 
-
-$$ \phi(S_k^n) = \frac{1}{k^{n/2}} \sum_{r: [n] \rightarrow [k]} \phi(a_{r_1} ... a_{r_n})$$.
-
-Now by examining the terms in the summation it follows that 
+Now we would like to look at the convergence in distribution of random variables $(S_k)$ for $k \in \mathbb{N}$ and look at the limit. It then follows that: 
 
 $$\lim_{k \rightarrow \infty} \phi(S_k^n) = \sum_{\pi \in \mathcal{P_2}(n)} \phi(\pi)$$
 
