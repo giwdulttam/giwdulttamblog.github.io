@@ -9,21 +9,13 @@ Now recall the classical notion of independence. Let $(\mathcal{B}, \phi)$ be a 
 
 Just as the sum of independent and identically distributed random variables in classical probability converges to a normal distribution, in free probability sums of freely independent and identically distributed non-commutative random variables will converge to a semicirular distribution. Consider the following definitions:
 
-Let $(\mathcal{A},\phi)$ be a non-commutative probability space and $T \in \mathcal{A}$. We say that $T$ is a standard semicircular random variable if the n-th moment of $T$ is given by: 
-
-$$\phi(T^n) = \frac{1}{2 \pi} \int_{-2}^{2}t^n \sqrt{4 - t^2} dt$$.
+Let $(\mathcal{A},\phi)$ be a non-commutative probability space and $T \in \mathcal{A}$. We say that $T$ is a standard semicircular random variable if the n-th moment of $T$ is given by: $\phi(T^n) = \frac{1}{2 \pi} \int_{-2}^{2}t^n \sqrt{4 - t^2} dt$.
 
 Before discussing the central limit theorems, we recall the following definition for random variables be identically distributed and the definition for convergence in distirbution:
 
-A collection of random variables $\{a_i\}_{i \in \mathbb{N}}$ is called identically distributed if each random variable $a_i$ for $i \in \mathbb{N}$ has the same probability distribution $\{\phi(a_i^n)\}^{\infty}_{n = 0}$. 
+A collection of random variables $\{ a_i \}$ for $i \in \mathbb{N}$ is called identically distributed if each random variable $a_i$ for $i \in \mathbb{N}$ has the same probability distribution $\{\phi(a_i^n)\}^{\infty}_{n = 0}$. 
 
-Let $(\mathcal{A_N}, \phi_N)_{N \in \mathbb{N}}$ and $(\mathcal{A},\phi)$ be non-commutative probability spaces and consider random variables $a_N \in \mathcal{A_N}$ for each $N \in \mathbb{N}$, and $a \in \mathcal{A}$. We say that $a_N$ converges in distribution towards $a$ for $N \rightarrow \infty$, and denote this by: $a_N $\xrightarrow[\text{distr}] a$ if we have $\lim_{N \rightarrow \infty}\phi_N(a_N^n) = \phi(a^n)$ for all $n \in \mathbb{N}$. 
-
-Now 
-
-
-
-
+Also, let $(\mathcal{A_k}, \phi_k), for $k \in \mathbb{N}$, and $(\mathcal{A},\phi)$ be non-commutative probability spaces. Then, if $(b_k)_{k \in \mathbb{N}}$ be a sequence of non-commutative random variables with $b_k \in \mathcal{A_k}$ and let $b \in \mathcal{A}$, then we say that $b_k$ converges in distribution to $b$, denoted by $b_k \rightarrow b$, if $\lim_{k \rightarrow \infty} \phi_k(b_k^n) = \phi(b^n)$. 
 
 
 
