@@ -13,7 +13,7 @@ Let $(\mathcal{A},\phi)$ be a non-commutative probability space and $T \in \math
 
 $$\phi(T^n) = \frac{1}{2 \pi} \int_{-2}^{2}t^n \sqrt{4 - t^2} dt$$.
 
-Now, the 
+Now, the central limit theorem....
 
 
 
