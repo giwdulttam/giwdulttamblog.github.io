@@ -21,10 +21,9 @@ $$\mathcal{M}(n) = \{(\pi, \lambda); \pi \in \mathcal{NC}(n), \text{if } V, W \i
 
 This essentially states that the monotone partitions are the subset of non-crossing partitions that satisfy the property that if a block is contained or surrounded by another block in the partition then it is greater in the linear order on the blocks in the partition. Now for the monotone partitions we have a similar relation between the monotone moments and monotone cumulants: 
 
-$$m_n = $$
+$$ m_n = \sum_{(\pi, \lambda) \in \mathcal{M}(n)} \frac{r(\pi)}{\lvert \pi \rvert !}
 
-
-
+where $r(\pi)$ are the monotone cummulant and $\lvert \pi \rvert$ is the size of the partition. 
 
 
 
