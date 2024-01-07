@@ -16,10 +16,12 @@ where here $\kappa_{n}$ are the free cumulants and $m_n$ are the free moments. T
 
 Now, we can construct more types of cumulants by consider the summation over different types of partitions. We will now introduce the notion of monotone partitions and monotone cummulants. A monotone partition is defined by a pair $(\pi, \lambda)$ where $\pi \in \mathcal{P}(n)$ and linear ordering $\lambda$ of the blocks of $\pi$. It is useful to use the notation $\pi = \{ V_1 < V_2 < ... < V_l\}$. Then, the set of monotone partitions is defined as follows:
 
-$$\mathcal{M}(n) \coloneqq \{(\pi, \lambda); \pi \in \mathcal{NC}(n), \text{if } V, W \in \pi \text{and } V \text{is in the inner side of } W, \text{then }, V >_{\lambda} W \}$$
+$$\mathcal{M}(n) = \{(\pi, \lambda); \pi \in \mathcal{NC}(n), \text{if } V, W \in \pi \text{and } V \text{is in the inner side of } W, \text{then }, V >_{\lambda} W \}$$
 
-We can also define the linear orders on the blocks for classical and non-crossing partitions.
 
+This essentially states that the monotone partitions are the subset of non-crossing partitions that satisfy the property that if a block is contained or surrounded by another block in the partition then it is greater in the linear order on the blocks in the partition. Now for the monotone partitions we have a similar relation between the monotone moments and monotone cumulants: 
+
+$$m_n = $$
 
 
 
