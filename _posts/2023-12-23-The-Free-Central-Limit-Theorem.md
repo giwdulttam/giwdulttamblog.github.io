@@ -17,7 +17,7 @@ A collection of random variables $\{ a_i \}$ for $i \in \mathbb{N}$ is called id
 
 Let $(\mathcal{A_k}, \phi_k)$ for $k \in \mathbb{N}$, and $(\mathcal{A}, \phi)$ be non-commutative probability spaces. Then, if $(b_k)$ for $k \in \mathbb{N}$ is a sequence of non-commutative random variables with $b_k \in \mathcal{A_k}$ and let $b \in \mathcal{A}$, then we say that $b_k$ converges in distribution to $b$, denoted by $b_k \rightarrow b$, if $\lim_{k \rightarrow \infty} \phi_k(b_k^n) = \phi(b^n)$ for any fixed $n \in \mathbb{N}$. Also, let $I$ be an index set. For each $i \in I$, let $b_k^{(i)} \in \mathcal{A_k}$ for each $k \in \mathbb{N}$ and $b^{(i)} \in \mathcal{A}$. We say that $(b_k^{(i)})$ for $i \in I$ converges in distribution to $(b^{(i)})$ for $i \in I$, denoted by $(b_k^{i})  \rightarrow $(b^{(i)})$ for $i \in I$ if $\lim_{k \rightarrow \infty} \phi_k(b_k^{(i_1)} ... b_k^{(i_n)}) = \phi(b_k^{(i_1)} ... b_k^{(i_n)})$ for all $n \in \mathbb{N}$ and all $i_1,...,i_n \in I$. 
 
-Now we would like to look at the convergence in distribution of random variables $(S_k)$ for $k \in \mathbb{N}$, so we need to consider the moments of these random variables. Let $[k] = \{1,...,k\]$ and $[n] = \{1,..n\}$ and thus we have: 
+Now we would like to look at the convergence in distribution of random variables $(S_k)$ for $k \in \mathbb{N}$, so we need to consider the moments of these random variables. Let $[k] = \{1,...,k\}$ and $[n] = \{1,..n\}$ and thus we have: 
 
 $$ \phi(S_k^n) = \frac{1}{k^{n/2}} \sum_{r: [n] \rightarrow [k]} \phi(a_{r_1} ... a_{r_n})$$.
 
@@ -35,9 +35,9 @@ when $n$ is even and $0$ when $n$ is odd which are the moments for a Gaussian ra
 
 Now in the free case, we have that our random variables are freely independent and that the only terms that contribute ot the moment calculation are the ones that correspond to non-crossing partitions which here are the non-crossing pairings which we denote by $NC_2(2n)$. Thus it follows that: 
 
-$$\lim_{k \rightarrow \infty} \phi(S_k^{2n}) = \sigma^{2n} |NC_2(2n)|$$
+$$\lim_{k \rightarrow \infty} \phi(S_k^{2n}) = \sigma^{2n} \lvert NC_2(2n) \rvert$$
 
-Now we observe that $|NC_2(2n)| = C_n$ of the Catalan numbers. Therefore, it follows that $|NC_2(2n)| = \frac{1}{n+1} \binom{2n}{n}$. Now consider the following definition:
+Now we observe that $\lvert NC_2(2n)\rvert = C_n$ of the Catalan numbers. Therefore, it follows that $ \lvert NC_2(2n) \rvert = \frac{1}{n+1} \binom{2n}{n}$. Now consider the following definition:
 
 A self adjoint random variable $s$ with odd moments $\phi(s^{2n+1}) = 0$ and even moments $\phi(s^{2n}) = \sigma^{2n}C_n$ where $C_n$ is the n-th Catalan number and $\sigma>0$ is a constant, is called a semi-circular element of variance $\sigma^2$. in the case that $\sigma = 1$, we call it the standard semi-circular element. 
 
