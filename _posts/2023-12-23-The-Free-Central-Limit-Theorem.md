@@ -33,12 +33,17 @@ $$ \lim_{k \rightarrow \infty} \phi(S_k^n) = \sum_{\pi \in \mathcal{P_2}(n)} \si
 
 when $n$ is even and $0$ when $n$ is odd which are the moments for a Gaussian random variable with mean $0$ and variance $\sigma^2$ which proves the central limit theorem in the classical case. 
 
+Now in the free case, we have that our random variables are freely independent and that the only terms that contribute ot the moment calculation are the ones that correspond to non-crossing partitions which here are the non-crossing pairings which we denote by $NC_2(2n)$. Thus it follows that: 
 
+$$\lim_{k \rightarrow \infty} \phi(S_k^{2n}) = \sigma^{2n} |NC_2(2n)|$$
 
+Now we observe that $|NC_2(2n)| = C_n$ of the Catalan numbers. Therefore, it follows that $|NC_2(2n)| = \frac{1}{n+1} 2n \choose n$. Now consider the following definition:
 
+A self adjoint random variable $s$ with odd moments $\phi(s^{2n+1}) = 0$ and even moments $\phi(s^{2n}) = \sigma^{2n}C_n$ where $C_n$ is the n-th Catalan number and $\sigma>0$ is a constant, is called a semi-circular element of variance $\sigma^2$. in the case that $\sigma = 1$, we call it the standard semi-circular element. 
 
+With this definition we have the free central limit theorem:
 
-
+If $(a_i)$ for $i \in \mathbb{N}$ are self-adjoint, freely independent, and identically distributed with $\phi(a_i) = 0$ and $\phi(a_i) = \sigma^2$, then $S_k$ converges in distribution to a semi-circular element of variance $\sigma^2$ as $k \rightarrow \infty$. 
 
 
 
