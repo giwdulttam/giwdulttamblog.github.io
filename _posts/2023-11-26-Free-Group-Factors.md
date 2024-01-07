@@ -1,6 +1,47 @@
 ### Free Group Factors
 
 
+The concept of freeness originated from the study of von Neumann algebras related to free groups. In this post we will discuss the connection between free groups, von Neumann algebras and free probability theory.
+
+First recall that 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
