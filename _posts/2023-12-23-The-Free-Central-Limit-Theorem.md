@@ -37,7 +37,7 @@ Now in the free case, we have that our random variables are freely independent a
 
 $$\lim_{k \rightarrow \infty} \phi(S_k^{2n}) = \sigma^{2n} |NC_2(2n)|$$
 
-Now we observe that $|NC_2(2n)| = C_n$ of the Catalan numbers. Therefore, it follows that $|NC_2(2n)| = \frac{1}{n+1} {2n \choose n}$. Now consider the following definition:
+Now we observe that $|NC_2(2n)| = C_n$ of the Catalan numbers. Therefore, it follows that $|NC_2(2n)| = \frac{1}{n+1} \binom(2n,n)$. Now consider the following definition:
 
 A self adjoint random variable $s$ with odd moments $\phi(s^{2n+1}) = 0$ and even moments $\phi(s^{2n}) = \sigma^{2n}C_n$ where $C_n$ is the n-th Catalan number and $\sigma>0$ is a constant, is called a semi-circular element of variance $\sigma^2$. in the case that $\sigma = 1$, we call it the standard semi-circular element. 
 
