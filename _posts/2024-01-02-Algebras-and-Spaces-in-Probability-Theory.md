@@ -3,10 +3,6 @@
 
 A few interesting notes on probability spaces:
 
-
-
-Interesting analogy: 
-
 $C^*$-algebras are to continuous functions as von Neumann algebras are to essentially bounded measurable functions. This correspondence could be thought of as a connection between topological spaces and measure spaces. 
 
 
