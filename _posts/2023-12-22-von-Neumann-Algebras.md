@@ -22,7 +22,7 @@ One simple example of a von Neumann algebra is the ring $L^{\infty}(\mathbb{R})$
 
 A simple example of a von Neumann algebra is the following: let $\mathcal{H} = \mathbb{C^d}$ be finite dimensional and $\mathcal{B}(\mathcal{H})$ be the $d \times d$ matrices over $\mathbb{C}$. 
 
-Another example of a von Neumann algebras appears in measures spaces. Let $(X, \Sigma, \mu)$ be a $\sigma-$finite measure space (that is a measure space that has a countable decomposition into measureable sets of finite measure). With $\mathcal{H} = L^2(X, \mu)$, for each $f \in L^{\infty}(X, \mu)$ identify it with the following bounded operator on $\mathcal{H}$: $ m_f \zeta \coloneq f \zeta$ for all $\zeta \in \mathcal{H}$. 
+Another example of a von Neumann algebras appears in measures spaces. Let $(X, \Sigma, \mu)$ be a $\sigma-$finite measure space (that is a measure space that has a countable decomposition into measureable sets of finite measure). With $\mathcal{H} = L^2(X, \mu)$, for each $f \in L^{\infty}(X, \mu)$ identify it with the following bounded operator on $\mathcal{H}$: $ m_f \zeta : = f \zeta$ for all $\zeta \in \mathcal{H}$. 
 
 
 
