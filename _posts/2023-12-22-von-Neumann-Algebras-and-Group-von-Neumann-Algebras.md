@@ -42,9 +42,7 @@ Now consider the following unitary group representation $\lambda: G \rightarrow 
 
 Having defined the representation of group algebra on the space of bounded square integrable functions on the group, we define a new algebra via this representation. The $\textbf{group von Neuman algebra of G}$, denoted $\mathcal{L}(G)$, is the closure of $\lambda(\mathbb{C}[G])$ in the strong operator topology on $\mathcal{B}(l_2(G))$.
 
-
-
-
+One long standing open problem about von Neumann algebras is the following: Let $m,n \geq 2$ (and possibly equal to $\infty$ and $n \neq m$ and $\mathbb{F_n}$ and $\mathbb{F}_m$ be the free groups on $n$ and $m$ generators. Are the von Neumann algebras $\mathcal{L}(\mathbb{F_n})$ and $\mathcal{L}(\mathbb{F_m})$ isomorphic? 
 
 
 
