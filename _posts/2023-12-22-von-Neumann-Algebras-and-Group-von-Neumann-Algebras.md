@@ -1,4 +1,7 @@
-### von Neumann Algebras
+### von Neumann Algebras and Group von Neumann Algebas
+
+
+# von Neumann Algebras
 
 We first recall that a vector space $\mathcal{H}$ over $\mathbb{C}$ is called a $\textbf{Hilbert space}$ if it is equipt with an inner product and is complete in the topology induced by the norm associated with the inner product. Further recall that a $\textbf{bounded operator}$ on a Hilbert space $\mathcal{H}$ is a $\mathbb{C}$-linear map $x: \mathcal{H} \rightarrow \mathcal{H}$ such that: $sup_{\zeta \in \mathcal{H}} \frac{\vert \vert x \zeta \vert \vert}{\vert \vert \zeta \vert \vert} < \infty$ and this supremum is called the operator norm of the operator $x$ and is denoted $\vert \vert x \vert \vert$.
 
@@ -23,6 +26,11 @@ One simple example of a von Neumann algebra is the ring $L^{\infty}(\mathbb{R})$
 A simple example of a von Neumann algebra is the following: let $\mathcal{H} = \mathbb{C^d}$ be finite dimensional and $\mathcal{B}(\mathcal{H})$ be the $d \times d$ matrices over $\mathbb{C}$. 
 
 Another example of a von Neumann algebras appears in measures spaces. Let $(X, \Sigma, \mu)$ be a $\sigma-$finite measure space (that is a measure space that has a countable decomposition into measureable sets of finite measure) with $\mathcal{H} = L^2(X, \mu)$, for each $f \in L^{\infty}(X, \mu)$ identify it with the following bounded operator on $\mathcal{H}$: $ m_f \zeta : = f \zeta$ for all $\zeta \in \mathcal{H}$. 
+
+
+# Group von Neumann Algebras
+
+Now, having introduced von Neumann algebras and given a few basic examples, we will now discuss group von Neumann algebras which can be thought of as the von Neumann algebra of operators on a Hilbert space that is constructed from a group $G$ and are important tools in representation theory. L 
 
 
 
