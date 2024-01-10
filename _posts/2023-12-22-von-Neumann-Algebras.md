@@ -16,9 +16,15 @@ Similarily, we let $(x_{\alpha}) \subset \mathcal{B}(\mathcal{H})$ be a net of b
 
 Another way to conceptualize the weak and strong operator topologies on $\mathcal{B}(\mathcal{H})$ is as follows: the weak operator topology is the weakest (or coarsest) topology on $\mathcal{B}(\mathcal{H})$ such that functional sending $x \in \mathcal{B}(\mathcal{H})$ to a complex number $< x \zeta, \eta >$ is continuous for all $\zeta, \eta \in \mathcal{H}$.
 
-Now, we say that a unital $\star$-subalgebra $1 \in M \subset \mathcal{B}(\mathcal{H})$ is a $\textbf{von Neumann algebra}$ if it is closed in the weak operator topology. 
+Now, we say that a unital $\star$-subalgebra $1 \in M \subset \mathcal{B}(\mathcal{H})$ is a $\textbf{von Neumann algebra}$ if it is closed in the weak operator topology. Furthermore, the $\textbf{center}$ of $M$, denoted $\mathcal{Z}$, is the von Neumann subalgebra $M \cap M'$ and if $\mathcal{Z}(M) = \mathbb{C}1$, then $M$ is called a $\textbf{factor}$.
 
-One simple example of a von Neumann algebra is the ring $L^{\infty}(\mathbb{R})$ of essentially bounded measureable functions on the real line whose elements act as multiplication operators by pointwise multiplication on the Hilbert space $L^2(\mathbb{R})$ of square-integrable functions. 
+One simple example of a von Neumann algebra is the ring $L^{\infty}(\mathbb{R})$ of essentially bounded measureable functions on the real line (that is the functions on the real line that are measureable and whose absolute value is bounded by some real number almost everywhere in its domain) whose elements act as multiplication operators by pointwise multiplication of functions on the Hilbert space $L^2(\mathbb{R})$ of square-integrable functions (the measureable functions for which the integral of the square of the absolute value is finite). Note that here $L^{\infty}(\mathbb{R})$ is the set of bounded operators and each square integralable function in $L^2(\mathbb{R})$ is a vector in a Hilbert space. 
+
+A simple example of a von Neumann algebra is the following: let $\mathcal{H} = \mathbb{C^d}$ be finite dimensional and $\mathcal{B}(\mathcal{H})$ be the $d \times d$ matrices over $\mathbb{C}$. 
+
+Another example of a von Neumann algebras appears in measures spaces. Let $(X, \Sigma, \mu)$ be a $\sigma-$finite measure space (that is a measure space that has a countable decomposition into measureable sets of finite measure). With $\mathcal{H} = L^2(X, \mu)$, for each $f \in L^{\infty}(X, \mu)$ identify it with the following bounded operator on $\mathcal{H}$: $ m_f \zeta \coloneq f \zeta$ for all $\zeta \in \mathcal{H}$. 
+
+
 
 
 
