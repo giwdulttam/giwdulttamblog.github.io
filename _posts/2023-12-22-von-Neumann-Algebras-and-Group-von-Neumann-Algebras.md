@@ -40,7 +40,7 @@ First recall that a unitary representation is a special representation (that is 
 
 Now consider the following unitary group representation $\lambda: G \rightarrow \mathcal{U}(l_2(G))$, which is from the group to the set of unitary operators on a the Hilbert space $\mathcal{U}(l_2(G))$, and is defined by $\lambda(g) \cdot \sum_{h \in G} a(h)h : = \sum_{h \in G}a(h)gh$, which is the left regluar representation of $G$ on the Hilbert space $l_2(G)$. Now we extend the domain of $\lambda$ from $G$ to $\mathbb{C}[G]$ by: $\lambda(a) = \lambda(\sum_{g \in G}a(g)g) = \sum_{g \in G}a(g)\lambda(g)$, that is for each $a \in \mathbb{C}[G]$, recall that here $\mathbb{C}[G]$ can be identified with the set of compactly supported conintuous functions $a: G \rightarrow \mathbb{C}$ and $\lambda(a)$ can be thought of as a finite sum of unitary operators on $l_2(G)$. Therefore, $\lambda$ is an algebra homomorphism $\lambda: \mathbb{C}[G] \rightarrow \mathcal{B}(l_2(G))$ or a representation of the group algebra on $l_2(G)$. 
 
-Having defined the representation of group algebra on the space of bounded square integrable functions on the group, we define a new algebra via this representation. The $\textbf{group von Neuman algebra of G}$, denoted $\mathcal{L}(G)$, is the closure of $\lambda(\mathbb{C}[G])$ in the strong operator topology on $\mathcal{B}(l_2(G)).
+Having defined the representation of group algebra on the space of bounded square integrable functions on the group, we define a new algebra via this representation. The $\textbf{group von Neuman algebra of G}$, denoted $\mathcal{L}(G)$, is the closure of $\lambda(\mathbb{C}[G])$ in the strong operator topology on $\mathcal{B}(l_2(G))$.
 
 
 
