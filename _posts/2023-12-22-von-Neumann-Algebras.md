@@ -4,7 +4,7 @@ We first recall that a vector space $\mathcal{H}$ over $\mathbb{C}$ is called a 
 
 Also recall that the $\textbf{adjoint}$ of the operator $x$, denoted $x^{\star}$, is the unique bounded operator determined by $< x \zeta, \eta > = < \zeta, x^* \eta >$ where $\zeta, \eta \in \mathcal{H}$.  Now note that the set of bounded operators on $\mathcal{H}$ denoted by $\mathcal{B}(\mathcal{H})$ is a $\star$ $\textbf{-algebra}$. 
 
-Recall that a $\star$-algebra is a $\textbf{Banach algebra}$ (that is an associative algebra over $\mathbb{C}$ that is at the same time a Banach space (that is a normed space that is complete in the metric induced by the nrorm) together with an involution satisfying the properties of the adjoint where multiplication is given by composition. Also note since $\mathcal{B}(\mathcal{H})$ is closed under the operation of norm and for all $x \in \mathcal{B}(\mathcal{H})$ we have that $\vert \vert x^{\star} x \vert \vert = \vert \vert x \vert \vert^{2} = \vert \vert x^{\star} \vert \vert^2$, then $\mathcal{B}(\mathcal{H})$ is a $C^{\star}$ $\textbf{-algebra}$.
+Recall that a $\star$-algebra is a $\textbf{Banach algebra}$ (that is an associative algebra over $\mathbb{C}$ that is at the same time a Banach space (that is a normed space that is complete in the metric induced by the norm) together with an involution satisfying the properties of the adjoint where multiplication is given by composition. Also note since $\mathcal{B}(\mathcal{H})$ is closed under the operation of norm and for all $x \in \mathcal{B}(\mathcal{H})$ we have that $\vert \vert x^{\star} x \vert \vert = \vert \vert x \vert \vert^{2} = \vert \vert x^{\star} \vert \vert^2$, then $\mathcal{B}(\mathcal{H})$ is a $C^{\star}$ $\textbf{-algebra}$.
 
 Now in order to introduce von Neumann algebras, we will first introduce a few topologies on $\mathcal{B}(\mathcal{H})$. The most natural and strongest (or finest) topology on $\mathcal{B}(\mathcal{H})$ is that induced by the operator norm.
 
@@ -22,7 +22,7 @@ One simple example of a von Neumann algebra is the ring $L^{\infty}(\mathbb{R})$
 
 A simple example of a von Neumann algebra is the following: let $\mathcal{H} = \mathbb{C^d}$ be finite dimensional and $\mathcal{B}(\mathcal{H})$ be the $d \times d$ matrices over $\mathbb{C}$. 
 
-Another example of a von Neumann algebras appears in measures spaces. Let $(X, \Sigma, \mu)$ be a $\sigma-$finite measure space (that is a measure space that has a countable decomposition into measureable sets of finite measure). With $\mathcal{H} = L^2(X, \mu)$, for each $f \in L^{\infty}(X, \mu)$ identify it with the following bounded operator on $\mathcal{H}$: $ m_f \zeta : = f \zeta$ for all $\zeta \in \mathcal{H}$. 
+Another example of a von Neumann algebras appears in measures spaces. Let $(X, \Sigma, \mu)$ be a $\sigma-$finite measure space (that is a measure space that has a countable decomposition into measureable sets of finite measure) with $\mathcal{H} = L^2(X, \mu)$, for each $f \in L^{\infty}(X, \mu)$ identify it with the following bounded operator on $\mathcal{H}$: $ m_f \zeta : = f \zeta$ for all $\zeta \in \mathcal{H}$. 
 
 
 
