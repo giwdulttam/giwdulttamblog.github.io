@@ -1,7 +1,7 @@
 ### von Neumann Algebras and Group von Neumann Algebras
 
 
-We first recall that a vector space $\mathcal{H}$ over $\mathbb{C}$ is called a \textbf{Hilbert space} if it is equipt with an inner product and is complete in the topology induced by the norm associated with the inner product. Further recall that a \textbf{bounded operator} on a Hilbert space $\mathcal{H}$ is a $\mathbb{C}$-linear map $x: \mathcal{H} \rightarrow \mathcal{H}$ such that: $sup_{\zeta \in \mathcal{H}} \frac{\vert \vert x \zeta \vert \vert}{\vert \vert \zeta \vert \vert} < \infty$ and this supremum is called the operator norm of the operator $x$ and is denoted $\vert \vert x \vert \vert$.
+We first recall that a vector space $\mathcal{H}$ over $\mathbb{C}$ is called a {\bf Hilbert space} if it is equipt with an inner product and is complete in the topology induced by the norm associated with the inner product. Further recall that a \textbf{bounded operator} on a Hilbert space $\mathcal{H}$ is a $\mathbb{C}$-linear map $x: \mathcal{H} \rightarrow \mathcal{H}$ such that: $sup_{\zeta \in \mathcal{H}} \frac{\vert \vert x \zeta \vert \vert}{\vert \vert \zeta \vert \vert} < \infty$ and this supremum is called the operator norm of the operator $x$ and is denoted $\vert \vert x \vert \vert$.
 
 Also recall that the adjoint of the operator $x$, denoted $x^{\star}$, is the unique bounded operator determined by $< x \zeta, \eta > = < \zeta, x^* \eta >$ where $\zeta, \eta \in \mathcal{H}$.  Now note that the set of bounded operators on $\mathcal{H}$ denoted by $\mathcal{B}(\mathcal{H})$ is a $\star$-algebra 
 
