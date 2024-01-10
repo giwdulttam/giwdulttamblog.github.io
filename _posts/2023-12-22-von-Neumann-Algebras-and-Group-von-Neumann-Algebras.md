@@ -30,7 +30,7 @@ Another example of a von Neumann algebras appears in measures spaces. Let $(X, \
 
 # Group von Neumann Algebras
 
-Now, having introduced von Neumann algebras and given a few basic examples, we will now discuss group von Neumann algebras which can be thought of as the von Neumann algebra of operators on a Hilbert space that is constructed from a group $G$ and are important tools in representation theory. L 
+Now, having introduced von Neumann algebras and given a few basic examples, we will now discuss group von Neumann algebras which can be thought of as the von Neumann algebra of operators on a Hilbert space that is constructed from a group $G$ and are important tools in representation theory. Let $G$ be a discrete group and consider the compact (or finite) supported functions $a: G \rightarrow \mathbb{C}$ and equipt these functions with a convolution $(a,b) \rightarrow a \star b$. Now, the set of these functions can be identified with the $\textbf{group algebra}$ $\mathbb{C}[G]$ of formal finite linear combinations of elements in $G$ with complex coefficients, $a = \sum_{g \in G}a(g)g$, where only finitely many $a(g) \neq 0$. So, 
 
 
 
