@@ -4,7 +4,7 @@
 
 # Random Matrices
 
-A random matrix is defined as a measureable function $A : (\Omega_1, \mathcal{B_1}, \mu_1) \rightarrow (\Omega_2, \mathcal{B_2}, \mu_2)$ between probability spaces where the target space is a set of matrices defined over some field, usually $\mathbb{C}$. Alternatively a random matrix can be thought of as a matrix whose entries are random variables. 
+A random matrix is defined as a measureable function $A : (\Omega_1, \mathcal{B_1}, \mu_1) \rightarrow (\Omega_2, \mathcal{B_2}, \mu_2)$ between probability spaces where the target space is a set of matrices defined over some field, usually $\mathbb{C}$. Alternatively, a random matrix can be thought of as a matrix whose entries are random variables. 
 
 Now let $A_N : (\Sigma, \mathcal{B}, \mu) \rightarrow \mathcal{H}_N$ be a Hermitian matrix-valued measurable function defined on a classical probability space. Note that since $\mathcal{H_N}$ are the dimension $N$ Hermitian matrices with complex entries, $\mathcal{H_n}$ is homeomorphic to $\mathbb{C}^{N(N-1)/2}$ as topological spaces. Therefore, we can define a measure on $\mathcal{H_N}$ to be the pushforward measure of the Borel measure on $\mathbb{C}^{N(N-1)/2}$ under the homeomorphism (that is we just take the inverse images of open sets in $\mathcal{H_N}$ and use the Borel measure to get their measure). Since $A_N$ can be thought of as a matrix whose entries are random variables, $h_{ij}$, then since $A_N$ is Hermitian, $h_{ji} = \bar{h_{ij}}$ for $i \neq j$ and $h_{ii} = \bar{h_{ii}}$ which implies that $h_{ii}$ is a real-valued random variable. 
 
