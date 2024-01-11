@@ -10,7 +10,7 @@ Now let $A_N:$ $(\Omega, \mathcal{B}, \mu)$ $\rightarrow \mathcal{H_N}$ be a Her
 
 One of the main subjects of interest in random matrix theory is finding the asymptotic eigenvlaue distribution, that is the distribution of eigenvalues of the $N \times N$ random matrix as $N \rightarrow \infty$. Recall that all of the eigenvalues of self-adjoint or Hermitian matrices are real. In order to simplify things, we will restrict our attention to the Hermitian random matrices as the eigenvalue distribution of non-Hermitian matrices is more complicated.
 
-Now we defint an $N \times N$ Gaussian random matrix to be the self-adjoint matrix $X_N = \frac{1}{\sqrt{N}}(x_{ij})^{N}_{i,j = 1} such that the entries $\{ x_{ij} \}$ where $i \geq j$ are independent and identically distributed complex (real for $i = j$) Gaussian random variables with mean $\mathbb{E}[x_{ij}] = 0$ and variance $\mathbb{E}[x_{ij} \bar{x}_{ij}] = 1$.
+Now we define an $N \times N$ Gaussian random matrix to be the self-adjoint matrix $X_N = \frac{1}{\sqrt{N}}(x_{ij})^{N}$ where $i,j = 1$ such that the entries $\{ x_{ij} \}$ where $i \geq j$ are independent and identically distributed complex (real for $i = j$) Gaussian random variables with mean $\mathbb{E}[x_{ij}] = 0$ and variance $\mathbb{E}[x_{ij} \bar{x}_{ij}] = 1$.
 
 
 
