@@ -8,7 +8,27 @@ A random matrix is defined as a measureable function $A : (\Omega_1, \mathcal{B_
 
 Now let $A_N:$ $(\Omega, \mathcal{B}, \mu)$ $\rightarrow \mathcal{H_N}$ be a Hermitian matrix-valued measurable function defined on a classical probability space. Recall that the Hermitian matrices are the complex square matrices that are equal to their own conjugate transpose. Note that since $\mathcal{H_N}$ are the dimension $N$ Hermitian matrices with complex entries, $\mathcal{H_n}$ is homeomorphic to $\mathbb{C}^{N(N-1)/2}$ as topological spaces. Therefore, we can define a measure on $\mathcal{H_N}$ to be the pushforward measure of the Borel measure on $\mathbb{C}^{N(N-1)/2}$ under the homeomorphism (that is we just take the inverse images of open sets in $\mathcal{H_N}$ and use the Borel measure to get their measure). Since $A_N$ can be thought of as a matrix whose entries are random variables, $h_{ij}$, then since $A_N$ is Hermitian, $h_{ji} = \bar{h_{ij}}$ for $i \neq j$ and $h_{ii} = \bar{h_{ii}}$ which implies that $h_{ii}$ is a real-valued random variable. 
 
-Now we say that $A_N$ is a Gaussian unitary ensemble (GUE) if each $h_{ij}$ with $i < j$ has the form: $h_{ij} = x_{ij} + \sqrt{-1} y_{ij}$, where $1 \leq 1 < j \leq N$ are independent standard Gaussian random variables, each with mean $0$ and variance $\frac{1}{2N}$. This requirement implies that $h_{ii}$ are real-valued independent Gaussian random variables independent from the $x_{ij}$'s and $y_{ij}$'s and have mean $0$ and variance $\frac{1}{N}$. 
+One of the main subjects of interest in random matrix theory is finding the asymptotic eigenvlaue distribution, that is the distribution of eigenvalues of the $N \times N$ random matrix as $N \rightarrow \infty$. Recall that all of the eigenvalues of self-adjoint or Hermitian matrices are real. In order to simplify things, we will restrict our attention to the Hermitian random matrices as the eigenvalue distribution of non-Hermitian matrices is more complicated.
+
+Now we defint an $N \times N$ Gaussian random matrix to be the self-adjoint matrix $X_N = \frac{1}{\sqrt{N}}(x_{ij})^{N}_{i,j = 1} such that the entries $\{ x_{ij} \}$ where $i \geq j$ are independent and identically distributed complex (real for $i = j$) Gaussian random variables with mean $\mathbb{E}[x_{ij}] = 0$ and variance $\mathbb{E}[x_{ij} \bar{x}_{ij}] = 1$.
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+Now we say that $A_N$ is a Gaussian unitary ensemble (GUE) if each $h_{ij}$ with $i < j$ has the form: $h_{ij} = x_{ij} + \sqrt{-1} y_{ij}$, where $1 \leq i < j \leq N$ are independent standard Gaussian random variables, each with mean $0$ and variance $\frac{1}{2N}$. This requirement implies that $h_{ii}$ are real-valued independent Gaussian random variables independent from the $x_{ij}$'s and $y_{ij}$'s and have mean $0$ and variance $\frac{1}{N}$. 
 
 Also, let $tr$ denote the normalized trace linear functional on the matrix algebra over $\mathbb{C}$. Thus, observe that $tr(A_N)$ is a random variable. Now let $A_N^{(1)},...,A_N^{(p)}$ be $p$ independent GUE matrices. Then $A_N^{(1)},...,A_N^{(p)} \rightarrow s_1,...,s_p$ as $N \rightarrow \infty$ where $s_1,...,s_p$ are freely independent semicircular elements which implies that $\lim_{N \rightarrow \infty} \mathbb{E}[tr(A_N^{(1)})...A_N^{(p)}] = \phi(s_{1}...s_{p})$. 
 
