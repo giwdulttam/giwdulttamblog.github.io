@@ -17,7 +17,7 @@ Also, let $tr$ denote the normalized trace linear functional on the matrix algeb
 
 # Gaussian and Constant Random Matrices
 
-Consider a sequence $A_N)_{N \geq 1}$ of random matrices with $A_N$ a GUE random matrix. Also, let $(D_N)_{N \geq 1}$ be a sequence of constant (that is deterministic or non-random) matrices with $D_N \in \mathbb{C}^{\bar{N} \times N}$ and assume that $\lim_{N \rightarrow \infty} tr(D_N^{m})$ exists for all $m \geq 1$. Finally, consider $A_N \rightarrow s$ and $D_N \rightarrow d$ as $N \rightarrow \infty$ where $s$ and $d$ are elements in some non-commutative probability space. 
+Consider a sequence $(A_N)_{N \geq 1}$ of random matrices with $A_N$ a GUE random matrix. Also, let $(D_N)_{N \geq 1}$ be a sequence of constant (that is deterministic or non-random) matrices with $D_N \in \mathbb{C}^{\bar{N} \times N}$ and assume that $\lim_{N \rightarrow \infty} tr(D_N^{m})$ exists for all $m \geq 1$. Finally, consider $A_N \rightarrow s$ and $D_N \rightarrow d$ as $N \rightarrow \infty$ where $s$ and $d$ are elements in some non-commutative probability space. 
 
 Let $A_N^{(1)},...,A_N^{(p)}$ be $p$ independent GUE matrices and let $D_N^{(1)},...,D_N^{(q)}$ be $q$ constant non-random matrices such that: $D_N^{(1)},...,D_N^{(q)} \rightarrow d_1,...,d_q$ as $N \rightarrow \infty$. Then, $A_N^{(1)},...,A_N^{(p)}, D_N^{(1)},...,D_N^{(q)} \rightarrow s_1,...,s_p, d_1,...,d_p$ as $N \rightarrow \infty$ where $s_i$ are semicircular and $s_1,...,s_p, \{d_1,...,d_p\}$ are free. That is $A_N^{(1)},...,A_N^{(p)}, \{D_N^{(1)},...,D_N^{(q)} \}$ are asymptotically free. 
 
