@@ -18,7 +18,7 @@ Now we will use the moment method to analyze the limit distribution of these ran
 
 Consider the sequences $X_N$ and $Y_N$ which are assumed to have almost surely an asymptotic eigenvalue distribution and recall that we would like to understand the asymptotic eigenvalue distribution of $p(X_N, Y_N)$, the non-commutative polynomials in $X_N$ and $Y_N$. Thus we investigate $tr(p(X_N, Y_N)^k)$ as $N \rightarrow \infty$ for all $k \in \mathbb{N}$ and all polynomials $p$. In order to understand this we will need to examine the mixed moments of these to non-commutative random variables. 
 
-Consider the following example: Let 
+Consider the following example: Let $X_N$ and $Y_N$ be $N \times N$ random matrices which have asymptotic eigenvalue distributions for $N \rightarrow \infty$. Also let $X_N$ be independent of $Y_N$ (the entries are independent), and let $Y_N$ 
 
 
 
