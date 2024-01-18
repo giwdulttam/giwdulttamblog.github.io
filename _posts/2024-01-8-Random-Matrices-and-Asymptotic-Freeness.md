@@ -14,11 +14,13 @@ Now we define an $N \times N$ Gaussian random matrix to be the self-adjoint matr
 
 Having introduced the eigenvalue distribution for a basic family of random matrices, we will now look at a similar case for several matrices. Now consider the sequences $X_N$ and $Y_N$ of self-adjoint $N \times N$ matrices such that both sequences have an asymptotic eigenvalue distribution as $N \rightarrow \infty$. We will now investigate the asymptotic eigenvalue distribution of the sequences of $p(X_N, Y_N)$ where $p$ is a polynomial in the non-commuting random variables $X_N$ and $Y_N$, (we also require that $p$ is a self-adjoint polynomial). 
 
-Now we will use the moment method to analyze the limit distribution of these random matrices. Observe that the information of the eigenvalue distribution of a self-adjoint matrix is captured by the trace of the powers of the matrix, that is $tr(A^{k})$ for all powers of $A$. This is because the trace of a self-joint matrix is invariant under conjugation with unitaries. To see this fact, recall that the trace is invariant under similarity transforms which include conjugation and note that when conjugating a matrix $A$ by a matrix $B$ by $BAB^{-1}$ the eigenvalues remain the same because the determinant of the conjugated matrix has the same determinant as the original matrix as conjugation can be thought of as changing the basis of the transformation. Thus, we have that for $k \in \mathbb{N}$ that $\frac{1}{N}(\lambda_1^k + ... + \lambda_N^k) = tr(A^k)$, where $\lambda_i$ are the eigenvalues of $A$. Therefore, we can study the eigenvalue distribution of $A$ by studying the trace of powers, $tr(A^k)$. 
+Now we will use the moment method to analyze the limit distribution of these random matrices. Observe that the information of the eigenvalue distribution of a self-adjoint matrix is captured by the trace of the powers of the matrix, that is $tr(A^{k})$ for all powers of $A$. This is because the trace of a self-adjoint matrix (recall that self-adjoin matrices are just complex analogues of real symmetric matrices which are diagonalizable) is invariant under conjugation with unitaries. To see this fact, recall that the trace is invariant under similarity transforms which include conjugation and note that when conjugating a matrix $A$ by a matrix $B$ by $BAB^{-1}$ the eigenvalues remain the same because the determinant of the conjugated matrix has the same determinant as the original matrix as conjugation can be thought of as changing the basis of the transformation. In others words, the spectral theorem with states that a Hermitian matrix $A$ can be diagonalized by by a unitary matrix $U$ such that $A = U^{\dagger}AU$ where D$ is a diagonal matrix whose diagonal elements are the eigenvalues of $A$. Thus, we have that for $k \in \mathbb{N}$ that $\frac{1}{N}(\lambda_1^k + ... + \lambda_N^k) = tr(A^k)$, where $\lambda_i$ are the eigenvalues of $A$. Therefore, we can study the eigenvalue distribution of $A$ by studying the trace of powers, $tr(A^k)$. 
 
 Consider the sequences $X_N$ and $Y_N$ which are assumed to have almost surely an asymptotic eigenvalue distribution and recall that we would like to understand the asymptotic eigenvalue distribution of $p(X_N, Y_N)$, the non-commutative polynomials in $X_N$ and $Y_N$. Thus we investigate $tr(p(X_N, Y_N)^k)$ as $N \rightarrow \infty$ for all $k \in \mathbb{N}$ and all polynomials $p$. In order to understand this we will need to examine the mixed moments of these to non-commutative random variables. 
 
-Consider the following example: Let $X_N$ and $Y_N$ be $N \times N$ random matrices which have asymptotic eigenvalue distributions for $N \rightarrow \infty$. Also let $X_N$ be independent of $Y_N$ (the entries are independent), and let $Y_N$ 
+Consider the following example: Let $X_N$ and $Y_N$ be $N \times N$ random matrices which have asymptotic eigenvalue distributions for $N \rightarrow \infty$. Also let $X_N$ be independent of $Y_N$ (the entries are independent) and require that $Y_N$ is a unitary invariant ensemble which means that the entries in $Y_N$ do not change under unitary conjugation and thus for unitary $N \times N$ matrix, $U_N Y_N U_N^{\star}$ is equivalent to the ensemble $Y_N$. 
+
+One example of this is two independent Gaussian random matrices $X_N$ and $Y_N$. Then it follows that as $N \rightarrow \infty$, $tr(X_N^{n_1} Y_N^{m_1}...X_N^{n_k} Y_N^{m_k})$ (that is each term in the non-commutative polynomaisl $p(X,Y)$ can be computed using the number of non-crossing pairings of...
 
 
 
@@ -27,7 +29,10 @@ Consider the following example: Let $X_N$ and $Y_N$ be $N \times N$ random matri
 
 
 
+Now, two sequences of matrices $(X_N)$ for $N \in \mathbb{N}$ and $(Y_N)$ for $N \in \mathbb{N}$ are asymptotically free if $lim_{N \rightarrow \infty} tr((X_{X}^{n_1} - \lim_{M \rightarrow \infty}tr(X_M^{n_1}) 1)(Y_N^{m_1} - \lim_{M \rightarrow \infty}tr(Y_{M}^{m_1}1)...(X_{M}^{n_k} - \lim_{M \rightarrow \infty}tr(X_M^{n_k})1)(Y_{N}^{m_k} - \lim_{M \rightarrow \infty} tr(Y_M^{m_k} 1)) = 0$. 
 
+
+We also the following theorem of Voiculescu: Consider $N \times N$ random matrices $X_N$ and $Y_N$ such that: both $X_N$ and $Y_N$ have almost surely an asymptotic eigenvalue distributions for $N \rightarrow \infty$; $X_N$ and $Y_N$ are independent; $Y_N$ is a unitary invariant ensemble. Then, $X_N$ and $Y_N$ are almost surely asymptotically free. 
 
 
 
@@ -41,15 +46,6 @@ Consider the following example: Let $X_N$ and $Y_N$ be $N \times N$ random matri
 
 
 ----------------------------------------------------------------------------------------------------------------------
-
-
-
-Now we say that $A_N$ is a Gaussian unitary ensemble (GUE) if each $h_{ij}$ with $i < j$ has the form: $h_{ij} = x_{ij} + \sqrt{-1} y_{ij}$, where $1 \leq i < j \leq N$ are independent standard Gaussian random variables, each with mean $0$ and variance $\frac{1}{2N}$. This requirement implies that $h_{ii}$ are real-valued independent Gaussian random variables independent from the $x_{ij}$'s and $y_{ij}$'s and have mean $0$ and variance $\frac{1}{N}$. 
-
-Also, let $tr$ denote the normalized trace linear functional on the matrix algebra over $\mathbb{C}$. Thus, observe that $tr(A_N)$ is a random variable. Now let $A_N^{(1)},...,A_N^{(p)}$ be $p$ independent GUE matrices. Then $A_N^{(1)},...,A_N^{(p)} \rightarrow s_1,...,s_p$ as $N \rightarrow \infty$ where $s_1,...,s_p$ are freely independent semicircular elements which implies that $\lim_{N \rightarrow \infty} \mathbb{E}[tr(A_N^{(1)})...A_N^{(p)}] = \phi(s_{1}...s_{p})$. 
-
-
-## Asymptotic Freeness
 
 # Gaussian and Constant Random Matrices
 
