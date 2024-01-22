@@ -1,6 +1,7 @@
-### 
+### Bochner's Theorem and Autocorrelation in Time Series
 
-In time series...
+
+
 
 
 
