@@ -1,5 +1,5 @@
 Hello! I'm Matt, an incoming PhD student in statistics at Boston Univeristy. I am interested in free probability theory and its interactions with random matrices, operator algebras and stochastic processes. 
-Below are a handful of posts on these things. Feel free to contact me with any questions, concerns, comments or just to say hello at maludwig15@gmail.com.
+Below are a handful of posts on these things. Feel free to contact me with any questions, concerns or comments at maludwig15@gmail.com.
 
 
 <div style="float: right; margin-left: 20px;">
