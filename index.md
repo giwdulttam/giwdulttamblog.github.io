@@ -1,4 +1,4 @@
-Hello! I'm Matt, an incoming PhD student in statistics at Boston Univeristy. I am interested in probability theory and stochastic processes. In particular, I am interested in free probability theory and its interactions with random matrices, operator algebras and stochastic processes. Below are a handful of posts on these things. Feel free to contact me with any questions, concerns or comments at maludwig15@gmail.com.
+Hello! I'm Matt, an incoming PhD student in statistics at Boston Univeristy. I am interested in random matrix theory and free probability theory. In particulat, I am interested in their interaction with stochastic processes, high-dimensional optimization and their application to stochastic algorithms in machine learning. Below are a handful of posts on these things. Feel free to contact me with any questions, concerns or comments at maludwig15@gmail.com.
 
 
 <div style="float: right; margin-left: 20px;">
