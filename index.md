@@ -1,4 +1,4 @@
-Hello! I'm Matt, an incoming PhD student in statistics at Boston Univeristy. I am broadly interested in probability theory, stochastic modeling and functional analysis. In particular, I am interested in the application of these fields to anomoly detection, uncertainty quantification and robust machine learning. I also dabble in operator algebras and non-commutative probabilty theory and its combinatorial aspects. Below are a handful of posts on these things. Feel free to contact me with any questions, concerns or comments at maludwig15@gmail.com.
+Hello! I'm Matt, an incoming PhD student in statistics at Boston Univeristy. I am broadly interested in probability theory, stochastic modeling and functional analysis. I am particularly interested in the application of these fields to anomoly detection, uncertainty quantification and robust machine learning. I also dabble in operator algebras and non-commutative probabilty theory and its combinatorial aspects. Below are a handful of posts on these things. Feel free to contact me with any questions, concerns or comments at maludwig15@gmail.com.
 
 
 <div style="float: right; margin-left: 20px;">
