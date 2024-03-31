@@ -1,4 +1,4 @@
-Hello! I'm Matt, an incoming PhD student in statistics at Boston Univeristy. I am primarily interested in non-commutative probability theory, its combinatorial aspects and its interactions with stochastic processes and random matrix theory. Below are a handful of posts on these things. Feel free to contact me with any questions, concerns or comments at maludwig15@gmail.com.
+Hello! I'm Matt, an incoming PhD student in statistics at Boston Univeristy. I am primarily interested in probability theory, stochastic modeling and stochastic dynamical systems as well as mathematical and computational methods in machine learning. I also dabble in non-commutative probabilty theory and its combinatorial aspects. Below are a handful of posts on these things. Feel free to contact me with any questions, concerns or comments at maludwig15@gmail.com.
 
 
 <div style="float: right; margin-left: 20px;">
